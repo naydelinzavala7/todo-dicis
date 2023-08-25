@@ -5,26 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <title>To - Do 🥵</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Infant:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/misestilos.css">
+  <title>To - Do ✏
+  </title>
 </head>
 <body>
   <div class="container">
     <div class="row">
-      <p>Naydelin Alondra Zavala Zúñiga</p>
-      <p>Aplicaciones de Internet</p>
-      <p>División de Ingenierías - Irapuato Salamanca</p>
+      <p class="my-0">Naydelin Alondra Zavala Zúñiga</p>
+      <p class="my-0">Aplicaciones de Internet</p>
+      <p class="my-0">División de Ingenierías - Irapuato Salamanca</p>
     </div>
     <div class="row">
-      <h1 class="my-5">ToDo List 🥵🤓🤓</h1>
+      <h1 class="my-3">ToDo List 
+        <i class="fa-solid fa-clipboard-list" style="color: #e66f00;"></i>
+      </h1>
     </div>
     <form id="formulario">
       <input type="text"
              name="task"
              placeholder="Task"
-             class="for-control my-2"
+             class="for-control my-2 rounded-1"
       >
-      <div class="d-grid">
-        <button class="btn btn-primary" type="submit">Save </button> 
+      <div class="d-grid my-3">
+        <button class="btn" type="submit">Save </button> 
       </div>
     </form>
     <hr>

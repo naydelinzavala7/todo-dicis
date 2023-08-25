@@ -1,0 +1,12 @@
+body{
+    font-family: 'Ysabeau Infant', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    text-align: center;
+}
+.btn{
+    color: aliceblue;
+    border-color: #e66f00;
+    background-color: #e66f00;
+}
